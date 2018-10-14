@@ -1,0 +1,65 @@
+  body {
+    font: 0.8em Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
+    height: 100%; /* Высота страницы */
+    background: url(D:\project/bg.jpg); /* Параметры фона */
+    background-size: cover; /* Фон занимает всю доступную площадь */
+   } 
+      a { color: #008BCE; /* Цвет ссылок */ }
+   #container {
+    width: 1357px; /* Ширина макета */
+    height: 400px;
+    margin: 0 auto; /* Выравниваем по центру */
+    background: orange; /* Цвет колонок */
+   }
+    .c {
+    border: 1px solid #333; /* Рамка */
+    display: inline-block;
+    padding: 5px 15px; /* Поля */
+    text-decoration: none; /* Убираем подчёркивание */
+    color: #000; /* Цвет текста */
+  }
+   .c:hover {
+    box-shadow: 0 0 5px rgba(0,0,0,0.3); /* Тень */
+    background: linear-gradient(to bottom, #, #e9e9ce); /* Градиент */
+    color: red;
+  } 
+   #header { 
+    font-size: 2.2em; /* Размер текста */
+    height: 80px;
+    text-align: center; /* Выравнивание по центру */
+    padding: 7px; /* Отступы вокруг текста */
+    background: url(D:\project/header.jpg) no-repeat top center;
+    }
+    #img {
+      width: 20px;
+    }
+   #nav, #aside {
+    float: left; width: 220px; padding: 5px;
+   }
+   #content {
+    background: #54B948;
+    margin: 0 120px; /* Ширина колонок */
+    padding: 10px;
+    min-height: calc(100vh - 80px);
+   }
+   #aside {
+    float: right; color: #000;
+   }
+   h2 { margin: 0 0 1em; }
+   .wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+   #footer { 
+    clear: both; /* Отменяем действие float */
+    padding: 20px; /* Отступы вокруг текста */
+   flex: 0 0 auto;
+   color: orange;
+   background-color: gray; 
+     }
